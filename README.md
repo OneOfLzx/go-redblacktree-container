@@ -1,5 +1,6 @@
 GO官方库没有set和自排序的map，平时用起来就差点意思，所以索性想自己实现一个。  
 底层基于红黑树实现的容器，包括：set、map。  
+底层红黑树是import的我另一个仓库：[go-redblacktree](https://github.com/OneOfLzx/go-redblacktree)  
 ### 类和接口介绍  
 ### Set  
 `setNodeValueEntry:` 封装底层红黑树节点的数据项，可以存放一个任意类型的数据。实现`RedBlackTreeNodeValEntry`接口  
